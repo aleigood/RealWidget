@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="@dimen/button_width"
     android:clickable="false"
-    android:focusable="false" >
+    android:focusable="false">
 
     <!-- 是否是clickable对属性没有影响，只有在设置某个view的click属性时才会触发 -->
 
@@ -11,13 +11,13 @@
         android:id="@+id/pos1"
         android:layout_width="0dip"
         android:layout_height="match_parent"
-        android:layout_weight="1" >
+        android:layout_weight="1">
 
         <ImageView
             android:id="@+id/bg1"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:scaleType="centerCrop" />
+            android:scaleType="centerCrop"/>
 
         <TextView
             android:id="@+id/label1"
@@ -28,7 +28,7 @@
             android:paddingBottom="@dimen/padding_bottom"
             android:paddingLeft="@dimen/padding"
             android:singleLine="true"
-            android:textSize="@dimen/text_size" />
+            android:textSize="@dimen/text_size"/>
 
         <TextView
             android:id="@+id/info1"
@@ -41,7 +41,7 @@
             android:paddingBottom="@dimen/padding_bottom"
             android:paddingRight="@dimen/padding"
             android:singleLine="true"
-            android:textSize="@dimen/text_size" />
+            android:textSize="@dimen/text_size"/>
 
         <TextView
             android:id="@+id/top_info1"
@@ -53,7 +53,7 @@
             android:paddingRight="@dimen/padding"
             android:paddingTop="@dimen/padding_bottom"
             android:singleLine="true"
-            android:textSize="@dimen/text_size" />
+            android:textSize="@dimen/text_size"/>
 
         <TextView
             android:id="@+id/title1"
@@ -65,26 +65,26 @@
             android:paddingLeft="@dimen/padding"
             android:paddingTop="@dimen/padding"
             android:singleLine="true"
-            android:textSize="18sp" />
+            android:textSize="18sp"/>
 
         <ImageView
             android:id="@+id/bgImg1"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_below="@id/title1"
-            android:scaleType="centerCrop" />
+            android:scaleType="centerCrop"/>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:gravity="center"
-            android:orientation="horizontal" >
+            android:orientation="horizontal">
 
             <ImageView
                 android:id="@+id/icon1"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:scaleType="center" />
+                android:scaleType="center"/>
 
             <TextView
                 android:id="@+id/count1"
@@ -96,31 +96,31 @@
                 android:includeFontPadding="false"
                 android:singleLine="true"
                 android:textSize="35sp"
-                android:typeface="monospace" />
+                android:typeface="monospace"/>
         </LinearLayout>
 
         <ImageView
             android:id="@+id/btn1"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@drawable/widget_selector" />
+            android:background="@drawable/widget_selector"/>
     </RelativeLayout>
 
     <LinearLayout
         android:layout_width="@dimen/divider_width"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent"/>
 
     <RelativeLayout
         android:id="@+id/pos2"
         android:layout_width="0dip"
         android:layout_height="match_parent"
-        android:layout_weight="1" >
+        android:layout_weight="1">
 
         <ImageView
             android:id="@+id/bg2"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:scaleType="centerCrop" />
+            android:scaleType="centerCrop"/>
 
         <TextView
             android:id="@+id/label2"
@@ -131,7 +131,7 @@
             android:paddingBottom="@dimen/padding_bottom"
             android:paddingLeft="@dimen/padding"
             android:singleLine="true"
-            android:textSize="@dimen/text_size" />
+            android:textSize="@dimen/text_size"/>
 
         <TextView
             android:id="@+id/info2"
@@ -144,7 +144,7 @@
             android:paddingBottom="@dimen/padding_bottom"
             android:paddingRight="@dimen/padding"
             android:singleLine="true"
-            android:textSize="@dimen/text_size" />
+            android:textSize="@dimen/text_size"/>
 
         <TextView
             android:id="@+id/top_info2"
@@ -156,7 +156,7 @@
             android:paddingRight="@dimen/padding"
             android:paddingTop="@dimen/padding_bottom"
             android:singleLine="true"
-            android:textSize="@dimen/text_size" />
+            android:textSize="@dimen/text_size"/>
 
         <TextView
             android:id="@+id/title2"
@@ -168,26 +168,26 @@
             android:paddingLeft="@dimen/padding"
             android:paddingTop="@dimen/padding"
             android:singleLine="true"
-            android:textSize="18sp" />
+            android:textSize="18sp"/>
 
         <ImageView
             android:id="@+id/bgImg2"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_below="@id/title2"
-            android:scaleType="centerCrop" />
+            android:scaleType="centerCrop"/>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:gravity="center"
-            android:orientation="horizontal" >
+            android:orientation="horizontal">
 
             <ImageView
                 android:id="@+id/icon2"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:scaleType="center" />
+                android:scaleType="center"/>
 
             <TextView
                 android:id="@+id/count2"
@@ -199,14 +199,14 @@
                 android:includeFontPadding="false"
                 android:singleLine="true"
                 android:textSize="35sp"
-                android:typeface="monospace" />
+                android:typeface="monospace"/>
         </LinearLayout>
 
         <ImageView
             android:id="@+id/btn2"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@drawable/widget_selector" />
+            android:background="@drawable/widget_selector"/>
     </RelativeLayout>
 
 </LinearLayout>

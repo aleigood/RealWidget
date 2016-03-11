@@ -1,111 +1,103 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:switchpro="http://schemas.android.com/apk/res/com.realwidget"
-    android:title="@string/app_name" >
+    android:title="@string/app_name">
 
     <PreferenceCategory
         android:key="widget_config"
-        android:title="@string/app_name" >
-        <com.realwidget.ui.mod.WidgetSelectorDlg android:title="Modify existing widget" />
+        android:title="@string/app_name">
+        <com.realwidget.ui.mod.WidgetSelectorDlg android:title="Modify existing widget"/>
 
         <PreferenceScreen
             android:key="weather_setting"
-            android:title="Weather settings" >
-            <PreferenceCategory android:title="Weather settings" >
+            android:title="Weather settings">
+            <PreferenceCategory android:title="Weather settings">
                 <ListPreference
                     android:defaultValue="0"
                     android:entries="@array/weather_source_entry"
                     android:entryValues="@array/weather_source_value"
                     android:key="weatherSource"
-                    android:title="Source" >
-                </ListPreference>
+                    android:title="Source"></ListPreference>
 
                 <EditTextPreference
                     android:key="weatherLocation"
-                    android:title="Set location" />
+                    android:title="Set location"/>
 
                 <ListPreference
                     android:defaultValue="0"
                     android:entries="@array/temp_unit_entry"
                     android:entryValues="@array/temp_unit_value"
                     android:key="weatherTempUnit"
-                    android:title="Temperature unit" >
-                </ListPreference>
+                    android:title="Temperature unit"></ListPreference>
                 <ListPreference
                     android:defaultValue="30"
                     android:entries="@array/weather_refresh_interval_entry"
                     android:entryValues="@array/weather_refresh_interval_value"
                     android:key="weatherRefreshInterval"
-                    android:title="Refresh interval" >
-                </ListPreference>
+                    android:title="Refresh interval"></ListPreference>
             </PreferenceCategory>
         </PreferenceScreen>
-        <PreferenceScreen android:title="Gmail settings" >
-            <PreferenceCategory android:title="Gmail settings" >
+        <PreferenceScreen android:title="Gmail settings">
+            <PreferenceCategory android:title="Gmail settings">
                 <com.realwidget.ui.conf.GmailLoginConfigDlg
                     android:dialogTitle="Login info"
-                    android:title="Login info" />
+                    android:title="Login info"/>
 
                 <ListPreference
                     android:defaultValue="5"
                     android:entries="@array/gmail_refresh_interval_entry"
                     android:entryValues="@array/gmail_refresh_interval_value"
                     android:key="gmailRefreshInterval"
-                    android:title="Refresh interval" >
-                </ListPreference>
+                    android:title="Refresh interval"></ListPreference>
             </PreferenceCategory>
         </PreferenceScreen>
-        <PreferenceScreen android:title="Other settings" >
-            <PreferenceCategory android:title="Calendar widget" >
+        <PreferenceScreen android:title="Other settings">
+            <PreferenceCategory android:title="Calendar widget">
                 <ListPreference
                     android:defaultValue="1"
                     android:entries="@array/max_days_entry"
                     android:entryValues="@array/max_days_value"
                     android:key="maxDaysOfEvent"
-                    android:title="Max days of event" >
-                </ListPreference>
+                    android:title="Max days of event"></ListPreference>
             </PreferenceCategory>
-            <PreferenceCategory android:title="Brightness widget" >
+            <PreferenceCategory android:title="Brightness widget">
                 <com.realwidget.ui.conf.LevelPreference
                     android:dialogTitle="Brightness level"
-                    android:title="Brightness level" />
+                    android:title="Brightness level"/>
             </PreferenceCategory>
-            <PreferenceCategory android:title="Battery widget" >
+            <PreferenceCategory android:title="Battery widget">
                 <CheckBoxPreference
                     android:key="batteryTemperature"
-                    android:title="Show battery temperature" />
+                    android:title="Show battery temperature"/>
 
                 <ListPreference
                     android:defaultValue="0"
                     android:entries="@array/temp_unit_entry"
                     android:entryValues="@array/temp_unit_value"
                     android:key="batteryTempUnit"
-                    android:title="Temperature unit" >
-                </ListPreference>
+                    android:title="Temperature unit"></ListPreference>
             </PreferenceCategory>
-            <PreferenceCategory android:title="Data toggle widget" >
+            <PreferenceCategory android:title="Data toggle widget">
                 <CheckBoxPreference
                     android:key="trafficStatistics"
-                    android:title="Show traffic statistics" />
+                    android:title="Show traffic statistics"/>
 
                 <ListPreference
                     android:defaultValue="0"
                     android:entries="@array/traffic_statistics_cycle_entry"
                     android:entryValues="@array/traffic_statistics_cycle_value"
                     android:key="trafficStatisticsCycle"
-                    android:title="Traffic Statistics cycle" >
-                </ListPreference>
+                    android:title="Traffic Statistics cycle"></ListPreference>
 
                 <com.realwidget.ui.conf.TrafficStatisticsConfigDlg
                     android:defaultValue="1"
                     android:key="trafficStatisticsFirstDay"
-                    android:title="First day" />
+                    android:title="First day"/>
             </PreferenceCategory>
         </PreferenceScreen>
 
         <com.realwidget.ui.conf.AboutDlg
             android:dialogTitle="@string/about"
-            android:title="@string/about" />
+            android:title="@string/about"/>
     </PreferenceCategory>
 
 </PreferenceScreen>

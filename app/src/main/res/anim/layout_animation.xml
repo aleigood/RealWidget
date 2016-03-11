@@ -2,6 +2,6 @@
 <layoutAnimation xmlns:android="http://schemas.android.com/apk/res/android"
     android:animation="@anim/scale_anim"
     android:animationOrder="reverse"
-    android:delay="30%" >
+    android:delay="30%">
 
 </layoutAnimation>

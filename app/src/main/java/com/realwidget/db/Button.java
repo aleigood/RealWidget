@@ -38,6 +38,7 @@ public class Button implements Parcelable, Comparable<Button> {
     public String intent = "";
     public String iconFile = "";
     public String backFile = "";
+
     public Button() {
     }
 

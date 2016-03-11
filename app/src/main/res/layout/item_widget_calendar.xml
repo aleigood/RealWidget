@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/pos1"
+<RelativeLayout android:id="@+id/pos1"
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="@dimen/button_width"
-    android:gravity="center_vertical" >
+    android:gravity="center_vertical">
 
     <ImageView
         android:id="@+id/bg"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:scaleType="centerCrop" />
+        android:scaleType="centerCrop"/>
 
     <TextView
         android:id="@+id/label"
@@ -21,7 +21,7 @@
         android:paddingBottom="@dimen/padding_bottom"
         android:paddingLeft="@dimen/padding"
         android:singleLine="true"
-        android:textSize="@dimen/text_size" />
+        android:textSize="@dimen/text_size"/>
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -29,7 +29,7 @@
         android:layout_above="@id/label"
         android:gravity="center_vertical"
         android:orientation="vertical"
-        android:paddingRight="@dimen/padding" >
+        android:paddingRight="@dimen/padding">
 
         <TextView
             android:id="@+id/no_event"
@@ -38,19 +38,19 @@
             android:layout_marginLeft="5dip"
             android:ellipsize="end"
             android:includeFontPadding="false"
-            android:textSize="12sp" />
+            android:textSize="12sp"/>
 
         <RelativeLayout
             android:id="@+id/event1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:gravity="center_vertical" >
+            android:gravity="center_vertical">
 
             <ImageView
                 android:id="@+id/color1"
                 android:layout_width="4dip"
                 android:layout_height="15dip"
-                android:scaleType="fitXY" />
+                android:scaleType="fitXY"/>
 
             <TextView
                 android:id="@+id/title1"
@@ -62,7 +62,7 @@
                 android:includeFontPadding="false"
                 android:singleLine="true"
                 android:textSize="12sp"
-                android:textStyle="bold" />
+                android:textStyle="bold"/>
 
             <TextView
                 android:id="@+id/content1"
@@ -74,7 +74,7 @@
                 android:ellipsize="end"
                 android:includeFontPadding="false"
                 android:singleLine="true"
-                android:textSize="11sp" />
+                android:textSize="11sp"/>
         </RelativeLayout>
 
         <RelativeLayout
@@ -83,13 +83,13 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="5dip"
             android:gravity="center_vertical"
-            android:paddingRight="@dimen/padding" >
+            android:paddingRight="@dimen/padding">
 
             <ImageView
                 android:id="@+id/color2"
                 android:layout_width="4dip"
                 android:layout_height="15dip"
-                android:scaleType="fitXY" />
+                android:scaleType="fitXY"/>
 
             <TextView
                 android:id="@+id/title2"
@@ -101,7 +101,7 @@
                 android:includeFontPadding="false"
                 android:singleLine="true"
                 android:textSize="12sp"
-                android:textStyle="bold" />
+                android:textStyle="bold"/>
 
             <TextView
                 android:id="@+id/content2"
@@ -113,7 +113,7 @@
                 android:ellipsize="end"
                 android:includeFontPadding="false"
                 android:singleLine="true"
-                android:textSize="11sp" />
+                android:textSize="11sp"/>
         </RelativeLayout>
     </LinearLayout>
 
@@ -128,7 +128,7 @@
         android:paddingRight="@dimen/padding"
         android:textColor="#FFFFFF"
         android:textSize="35sp"
-        android:typeface="monospace" />
+        android:typeface="monospace"/>
 
     <TextView
         android:id="@+id/mounth"
@@ -137,12 +137,12 @@
         android:layout_alignBottom="@id/bg"
         android:layout_toLeftOf="@id/day"
         android:paddingBottom="@dimen/padding_bottom"
-        android:textSize="@dimen/text_size" />
+        android:textSize="@dimen/text_size"/>
 
     <ImageView
         android:id="@+id/btn"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@drawable/widget_selector" />
+        android:background="@drawable/widget_selector"/>
 
 </RelativeLayout>

@@ -2,7 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#88000000" >
+    android:background="#88000000">
 
     <ImageView
         android:id="@+id/delete"
@@ -11,7 +11,7 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentTop="true"
         android:clickable="true"
-        android:src="@drawable/ic_del" />
+        android:src="@drawable/ic_del"/>
 
     <ImageView
         android:id="@+id/config"
@@ -20,6 +20,6 @@
         android:layout_centerInParent="true"
         android:clickable="true"
         android:scaleType="center"
-        android:src="@drawable/ic_settings" />
+        android:src="@drawable/ic_settings"/>
 
 </RelativeLayout>

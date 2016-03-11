@@ -10,7 +10,7 @@ import com.realwidget.widget.gmail.GmailWidget;
 import com.realwidget.widget.music.MusicWidget;
 import com.realwidget.widget.weather.WeatherWidget;
 
-public class MainBrocastReceiver extends BroadcastReceiver {
+public class MainBroadcastReceiver extends BroadcastReceiver {
     public static int batteryLevel;
     public static int batteryTemperatureC;
     public static int batteryStatus;

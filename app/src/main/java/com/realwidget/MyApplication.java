@@ -19,7 +19,7 @@ import com.realwidget.widget.weather.WeatherWidget;
 
 public class MyApplication extends Application {
     private static MyApplication instance;
-    private static MainBrocastReceiver mainReceiver = new MainBrocastReceiver();
+    private static MainBroadcastReceiver mainReceiver = new MainBroadcastReceiver();
     private DatabaseOper dbOper;
 
     public static MyApplication getInstance() {

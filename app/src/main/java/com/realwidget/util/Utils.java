@@ -27,7 +27,7 @@ import android.text.format.DateUtils;
 import android.text.format.Time;
 import android.util.SparseArray;
 import com.realwidget.Constants;
-import com.realwidget.MainBrocastReceiver;
+import com.realwidget.MainBroadcastReceiver;
 import com.realwidget.MyApplication;
 import com.realwidget.R;
 import com.realwidget.RealWidgetProvider;
@@ -64,7 +64,7 @@ public class Utils {
                 public void run() {
                     isUpdating = false;
                     context.sendBroadcast(new Intent(Constants.ACTION_WIDGET_UPDATE, null, context,
-                            MainBrocastReceiver.class).putExtra("tag", tag));
+                            MainBroadcastReceiver.class).putExtra("tag", tag));
                     this.cancel();
                 }
             }, 1500);

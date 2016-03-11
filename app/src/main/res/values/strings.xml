@@ -5,7 +5,7 @@
     <string name="app_name">Real Widget</string>
     <string name="on">ON</string>
     <string name="off">OFF</string>
-    
+
     <string name="airplane">Airplane</string>
     <string name="alarm">Alarm</string>
     <string name="battery">Battery</string>
@@ -26,7 +26,7 @@
     <string name="todo">Todo</string>
     <string name="auto_rotate">Auto Rotate</string>
     <string name="weather">Weather</string>
-    
+
     <string name="bg_blue">Blue</string>
     <string name="bg_brown">Brown</string>
     <string name="bg_green">Green</string>
@@ -45,15 +45,15 @@
     <string name="gadget_no_events">No upcoming calendar events</string>
     <string name="select_img_error">An error was encountered while trying to open the selected image.</string>
     <string name="back_color">Background color</string>
-	<string name="custom_color">Color</string>
+    <string name="custom_color">Color</string>
     <string name="custom_image">Image</string>
     <string name="color_code">Code: #</string>
-	<string name="title_button_global_settings">Global settings</string>
+    <string name="title_button_global_settings">Global settings</string>
     <string name="title_button_settings">Widget settings</string>
     <string name="title_load_widget">Restore widget</string>
     <string name="title_save_widget">Backup widget</string>
     <string name="continue_confirm">Would you like to continue?</string>
-	<string name="save_conf_error">Can\'t save widget, make sure the SD card has been mounted.</string>
+    <string name="save_conf_error">Can\'t save widget, make sure the SD card has been mounted.</string>
     <string name="save_conf_succ">Save widget successful.</string>
     <string name="no_widget_to_modify">There is no widget to modify.</string>
     <string name="no_saved_setting">There is no saved widget.</string>

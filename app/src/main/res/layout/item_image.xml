@@ -5,7 +5,7 @@
     android:gravity="center"
     android:orientation="horizontal"
     android:paddingLeft="16dip"
-    android:paddingRight="16dip" >
+    android:paddingRight="16dip">
 
     <ImageView
         android:id="@+id/pref_current_img"
@@ -15,7 +15,7 @@
         android:layout_marginRight="14dip"
         android:clickable="false"
         android:focusable="false"
-        android:scaleType="fitXY" />
+        android:scaleType="fitXY"/>
 
     <TextView
         android:id="@+id/pref_current_txt"
@@ -24,6 +24,6 @@
         android:drawablePadding="14dip"
         android:gravity="center_vertical"
         android:minHeight="?android:attr/listPreferredItemHeight"
-        android:textAppearance="?android:attr/textAppearanceListItemSmall" />
+        android:textAppearance="?android:attr/textAppearanceListItemSmall"/>
 
 </LinearLayout>

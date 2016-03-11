@@ -19,7 +19,7 @@ import android.widget.ImageView;
 import android.widget.RemoteViews;
 import android.widget.TextView;
 import com.realwidget.Constants;
-import com.realwidget.MainBrocastReceiver;
+import com.realwidget.MainBroadcastReceiver;
 import com.realwidget.R;
 import com.realwidget.db.Button;
 import com.realwidget.util.MemInfoReader;
@@ -267,16 +267,16 @@ public class ToggleWidget extends WidgetGenerator {
                 toggle.lable = nextAlarm == null ? context.getString(R.string.alarm) : nextAlarm;
                 break;
             case Constants.BUTTON_BETTERY:
-                toggle.info = MainBrocastReceiver.batteryLevel + "%";
+                toggle.info = MainBroadcastReceiver.batteryLevel + "%";
                 toggle.lable = btn.label;
 
                 if (sp.getBoolean(Constants.PREF_BATTERY_TEMPERATURE, false)) {
                     String unit = sp.getString(Constants.PREF_BATTERY_TEMPERATURE_UNIT, "0");
 
                     if (unit.equals("0")) {
-                        toggle.topInfo = (MainBrocastReceiver.batteryTemperatureC / 10) + "°";
+                        toggle.topInfo = (MainBroadcastReceiver.batteryTemperatureC / 10) + "°";
                     } else {
-                        toggle.topInfo = Utils.celsiusToFahrenheit(MainBrocastReceiver.batteryTemperatureC / 10) + "°";
+                        toggle.topInfo = Utils.celsiusToFahrenheit(MainBroadcastReceiver.batteryTemperatureC / 10) + "°";
                     }
                 }
 
@@ -440,30 +440,30 @@ public class ToggleWidget extends WidgetGenerator {
      * @return
      */
     private Bitmap getBatteryIcon(Button btn) {
-        switch (MainBrocastReceiver.batteryStatus) {
+        switch (MainBroadcastReceiver.batteryStatus) {
             // 表示是充电状态
             case BatteryManager.BATTERY_STATUS_CHARGING:
                 return getIconFromRes(mContext, btn, R.drawable.ic_battery_charging);
             default:
-                if (MainBrocastReceiver.batteryLevel < 15) {
+                if (MainBroadcastReceiver.batteryLevel < 15) {
                     return getIconFromRes(mContext, btn, R.drawable.ic_battery_10);
-                } else if (MainBrocastReceiver.batteryLevel >= 15 && MainBrocastReceiver.batteryLevel < 25) {
+                } else if (MainBroadcastReceiver.batteryLevel >= 15 && MainBroadcastReceiver.batteryLevel < 25) {
                     return getIconFromRes(mContext, btn, R.drawable.ic_battery_20);
-                } else if (MainBrocastReceiver.batteryLevel >= 25 && MainBrocastReceiver.batteryLevel < 35) {
+                } else if (MainBroadcastReceiver.batteryLevel >= 25 && MainBroadcastReceiver.batteryLevel < 35) {
                     return getIconFromRes(mContext, btn, R.drawable.ic_battery_30);
-                } else if (MainBrocastReceiver.batteryLevel >= 35 && MainBrocastReceiver.batteryLevel < 45) {
+                } else if (MainBroadcastReceiver.batteryLevel >= 35 && MainBroadcastReceiver.batteryLevel < 45) {
                     return getIconFromRes(mContext, btn, R.drawable.ic_battery_40);
-                } else if (MainBrocastReceiver.batteryLevel >= 45 && MainBrocastReceiver.batteryLevel < 55) {
+                } else if (MainBroadcastReceiver.batteryLevel >= 45 && MainBroadcastReceiver.batteryLevel < 55) {
                     return getIconFromRes(mContext, btn, R.drawable.ic_battery_50);
-                } else if (MainBrocastReceiver.batteryLevel >= 55 && MainBrocastReceiver.batteryLevel < 65) {
+                } else if (MainBroadcastReceiver.batteryLevel >= 55 && MainBroadcastReceiver.batteryLevel < 65) {
                     return getIconFromRes(mContext, btn, R.drawable.ic_battery_60);
-                } else if (MainBrocastReceiver.batteryLevel >= 65 && MainBrocastReceiver.batteryLevel < 75) {
+                } else if (MainBroadcastReceiver.batteryLevel >= 65 && MainBroadcastReceiver.batteryLevel < 75) {
                     return getIconFromRes(mContext, btn, R.drawable.ic_battery_70);
-                } else if (MainBrocastReceiver.batteryLevel >= 75 && MainBrocastReceiver.batteryLevel < 85) {
+                } else if (MainBroadcastReceiver.batteryLevel >= 75 && MainBroadcastReceiver.batteryLevel < 85) {
                     return getIconFromRes(mContext, btn, R.drawable.ic_battery_80);
-                } else if (MainBrocastReceiver.batteryLevel >= 85 && MainBrocastReceiver.batteryLevel < 95) {
+                } else if (MainBroadcastReceiver.batteryLevel >= 85 && MainBroadcastReceiver.batteryLevel < 95) {
                     return getIconFromRes(mContext, btn, R.drawable.ic_battery_90);
-                } else if (MainBrocastReceiver.batteryLevel >= 95 && MainBrocastReceiver.batteryLevel <= 100) {
+                } else if (MainBroadcastReceiver.batteryLevel >= 95 && MainBroadcastReceiver.batteryLevel <= 100) {
                     return getIconFromRes(mContext, btn, R.drawable.ic_battery_100);
                 }
                 break;

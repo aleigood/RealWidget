@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/pos1"
+<RelativeLayout android:id="@+id/pos1"
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="@dimen/button_width" >
+    android:layout_height="@dimen/button_width">
 
     <ImageView
         android:id="@+id/bg"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:scaleType="centerCrop" />
+        android:scaleType="centerCrop"/>
 
     <TextView
         android:id="@+id/label"
@@ -20,7 +20,7 @@
         android:paddingBottom="@dimen/padding_bottom"
         android:paddingLeft="@dimen/padding"
         android:singleLine="true"
-        android:textSize="@dimen/text_size" />
+        android:textSize="@dimen/text_size"/>
 
     <RelativeLayout
         android:layout_width="wrap_content"
@@ -28,7 +28,7 @@
         android:layout_above="@id/label"
         android:gravity="center_vertical"
         android:paddingLeft="@dimen/padding"
-        android:paddingRight="@dimen/padding" >
+        android:paddingRight="@dimen/padding">
 
         <TextView
             android:id="@+id/title"
@@ -37,7 +37,7 @@
             android:ellipsize="end"
             android:includeFontPadding="false"
             android:textSize="12sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"/>
 
         <TextView
             android:id="@+id/content"
@@ -48,7 +48,7 @@
             android:ellipsize="end"
             android:includeFontPadding="false"
             android:maxLines="4"
-            android:textSize="11sp" />
+            android:textSize="11sp"/>
     </RelativeLayout>
 
     <TextView
@@ -59,12 +59,12 @@
         android:layout_alignRight="@id/bg"
         android:paddingBottom="@dimen/padding_bottom"
         android:paddingRight="@dimen/padding"
-        android:textSize="@dimen/text_size" />
+        android:textSize="@dimen/text_size"/>
 
     <ImageView
         android:id="@+id/btn"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@drawable/widget_selector" />
+        android:background="@drawable/widget_selector"/>
 
 </RelativeLayout>

@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="wrap_content"
     android:layout_height="match_parent"
-    android:orientation="horizontal" >
+    android:orientation="horizontal">
 
     <!-- android:listSelector设置为透明,当按钮为空时不会出现选择效果 -->
 
@@ -18,7 +18,7 @@
         android:listSelector="@drawable/trans_selector"
         android:numColumns="auto_fit"
         android:stretchMode="columnWidth"
-        android:verticalSpacing="@dimen/divider_width" />
+        android:verticalSpacing="@dimen/divider_width"/>
 
     <ImageView
         android:id="@+id/app_shortcut"
@@ -26,6 +26,6 @@
         android:layout_height="wrap_content"
         android:layout_marginRight="10dip"
         android:src="@drawable/ic_next"
-        android:visibility="gone" />
+        android:visibility="gone"/>
 
 </LinearLayout>

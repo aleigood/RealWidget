@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical" >
+    android:orientation="vertical">
 
     <EditText
         android:id="@+id/user_name"
@@ -10,9 +10,9 @@
         android:layout_height="wrap_content"
         android:layout_margin="10dip"
         android:ems="10"
-        android:hint="Email" >
+        android:hint="Email">
 
-        <requestFocus />
+        <requestFocus/>
     </EditText>
 
     <EditText
@@ -22,7 +22,6 @@
         android:layout_margin="10dip"
         android:ems="10"
         android:hint="Password"
-        android:inputType="textPassword" >
-    </EditText>
+        android:inputType="textPassword"></EditText>
 
 </LinearLayout>

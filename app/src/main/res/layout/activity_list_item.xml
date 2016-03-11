@@ -7,4 +7,4 @@
     android:minHeight="?android:attr/listPreferredItemHeight"
     android:paddingLeft="16dip"
     android:paddingRight="16dip"
-    android:textAppearance="?android:attr/textAppearanceListItemSmall" />
+    android:textAppearance="?android:attr/textAppearanceListItemSmall"/>
