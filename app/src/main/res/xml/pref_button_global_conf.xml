@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:realwidget="http://schemas.android.com/apk/res/com.realwidget"
+    android:key="all_btn_config"
+    android:title="@string/title_button_global_settings" >
+
+    <CheckBoxPreference
+        android:key="autofit"
+        android:persistent="false"
+        android:summary="The tiles width will automatically adjust when resizing the widget."
+        android:title="Auto fit" />
+
+    <com.realwidget.ui.comm.ColorPreference
+        android:key="cus_label_color"
+        android:title="Text color"
+        android:widgetLayout="@layout/view_pref_image_preview" />
+    <com.realwidget.ui.comm.ColorPreference
+        android:key="cus_icon_color"
+        android:title="Icon color"
+        android:widgetLayout="@layout/view_pref_image_preview" />
+
+    <com.realwidget.ui.mod.CustomBackPreference
+        android:key="cus_back_color"
+        android:title="Background"
+        android:widgetLayout="@layout/view_pref_image_preview" />
+
+</PreferenceScreen>

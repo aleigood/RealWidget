@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="version">v1.0.8</string>
+    <string name="about">About</string>
+    <string name="app_name">Real Widget</string>
+    <string name="on">ON</string>
+    <string name="off">OFF</string>
+    
+    <string name="airplane">Airplane</string>
+    <string name="alarm">Alarm</string>
+    <string name="battery">Battery</string>
+    <string name="bluetooth">Bluetooth</string>
+    <string name="brightness">Brightness</string>
+    <string name="gmail">Gmail</string>
+    <string name="gps">GPS</string>
+    <string name="phone">Phone</string>
+    <string name="sms">Message</string>
+    <string name="sync">Sync</string>
+    <string name="storage">Storage</string>
+    <string name="wifi">Wi-Fi</string>
+    <string name="calendar">Calendar</string>
+    <string name="music">Music</string>
+    <string name="memory">Memory</string>
+    <string name="sms_x2">Message</string>
+    <string name="data">Data</string>
+    <string name="todo">Todo</string>
+    <string name="auto_rotate">Auto Rotate</string>
+    <string name="weather">Weather</string>
+    
+    <string name="bg_blue">Blue</string>
+    <string name="bg_brown">Brown</string>
+    <string name="bg_green">Green</string>
+    <string name="bg_lime">Lime</string>
+    <string name="bg_magenta">Magenta</string>
+    <string name="bg_mango">Mango</string>
+    <string name="bg_pink">Pink</string>
+    <string name="bg_purple">Purple</string>
+    <string name="bg_red">Red</string>
+    <string name="bg_teal">Teal</string>
+
+    <string name="bg_custom">Custom</string>
+    <string name="bright_level">Level of brightness</string>
+    <string name="bright_level_auto">Auto</string>
+    <string name="level_select_warning">Please select two levels at least.</string>
+    <string name="gadget_no_events">No upcoming calendar events</string>
+    <string name="select_img_error">An error was encountered while trying to open the selected image.</string>
+    <string name="back_color">Background color</string>
+	<string name="custom_color">Color</string>
+    <string name="custom_image">Image</string>
+    <string name="color_code">Code: #</string>
+	<string name="title_button_global_settings">Global settings</string>
+    <string name="title_button_settings">Widget settings</string>
+    <string name="title_load_widget">Restore widget</string>
+    <string name="title_save_widget">Backup widget</string>
+    <string name="continue_confirm">Would you like to continue?</string>
+	<string name="save_conf_error">Can\'t save widget, make sure the SD card has been mounted.</string>
+    <string name="save_conf_succ">Save widget successful.</string>
+    <string name="no_widget_to_modify">There is no widget to modify.</string>
+    <string name="no_saved_setting">There is no saved widget.</string>
+    <string name="title_select_widget">Select widget</string>
+    <string name="weather_location_error">Error, location is null.</string>
+    <string name="weather_network_error">Error, network is unavailable.</string>
+</resources>

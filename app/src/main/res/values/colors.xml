@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="bg_blue">#FF1BA1E2</color>
+    <color name="bg_brown">#FFA05000</color>
+    <color name="bg_green">#FF339933</color>
+    <color name="bg_lime">#FFA2C139</color>
+    <color name="bg_magenta">#FFD80073</color>
+    <color name="bg_mango">#FFF09609</color>
+    <color name="bg_pink">#FFE671B8</color>
+    <color name="bg_purple">#FFA200FF</color>
+    <color name="bg_red">#FFE51400</color>
+    <color name="bg_teal">#FF00ABA9</color>
+    <color name="white">#FFFFFFFF</color>
+
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="button_width">110dip</dimen>
+    <dimen name="column_width">224dip</dimen>
+    <dimen name="divider_width">4dip</dimen>
+    <dimen name="padding">5dip</dimen>
+    <dimen name="padding_bottom">2dip</dimen>
+    <dimen name="text_size">12sp</dimen>
+    <dimen name="stroke_width">1.5dip</dimen>
+
+</resources>

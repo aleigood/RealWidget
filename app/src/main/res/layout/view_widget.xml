@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <!-- android:listSelector设置为透明,当按钮为空时不会出现选择效果 -->
+
+    <GridView
+        android:id="@+id/buttons_list"
+        android:layout_width="0dip"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:columnWidth="@dimen/column_width"
+        android:drawSelectorOnTop="true"
+        android:horizontalSpacing="@dimen/divider_width"
+        android:layoutAnimation="@anim/layout_animation"
+        android:listSelector="@drawable/trans_selector"
+        android:numColumns="auto_fit"
+        android:stretchMode="none"
+        android:verticalSpacing="@dimen/divider_width" />
+
+    <ImageView
+        android:id="@+id/app_shortcut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dip"
+        android:src="@drawable/ic_next"
+        android:visibility="gone" />
+
+</LinearLayout>

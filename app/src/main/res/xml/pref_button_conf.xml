@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:realwidget="http://schemas.android.com/apk/res/com.realwidget"
+    android:key="btn_config"
+    android:title="@string/title_button_settings" >
+
+    <EditTextPreference
+        android:key="title"
+        android:persistent="false"
+        android:title="Custom title" />
+
+    <ListPreference
+        android:entries="@array/btn_size"
+        android:entryValues="@array/btn_size"
+        android:key="btn_size"
+        android:persistent="false"
+        android:title="Size" />
+
+    <com.realwidget.ui.mod.ChangeAppPreference
+        android:key="dest_app"
+        android:title="Change application"
+        android:widgetLayout="@layout/view_pref_button" />
+
+    <com.realwidget.ui.comm.ColorPreference
+        android:key="cus_label_color"
+        android:title="Text color"
+        android:widgetLayout="@layout/view_pref_image_preview" />
+    <com.realwidget.ui.comm.ColorPreference
+        android:key="cus_icon_color"
+        android:title="Icon color"
+        android:widgetLayout="@layout/view_pref_image_preview" />
+
+    <com.realwidget.ui.mod.CustomBackPreference
+        android:key="cus_back_color"
+        android:title="Background"
+        android:widgetLayout="@layout/view_pref_image_preview" />
+
+    <com.realwidget.ui.mod.CustomIconPreference
+        android:key="cus_icon"
+        android:title="Custom icon"
+        android:widgetLayout="@layout/view_pref_button" />
+
+</PreferenceScreen>
